@@ -1,0 +1,11 @@
+Definition: Python provides a built-in logging module for tracking events in your programs. It’s more powerful and flexible than using print() statements for debugging 
+
+import logging
+
+logging.basicConfig(level=ogging.INFO)
+
+logging.debug("This is a debug message")   
+logging.info("This is an info message")     
+logging.warning("This is a warning message") 
+logging.error("This is an error message")   
+logging.critical("This is a critical message")
