@@ -1,0 +1,9 @@
+import os
+
+db_user=os.getenv("password")
+print(db_user)
+
+
+in .bashrc:
+-----------
+password=charan
