@@ -1,0 +1,10 @@
+Read a file:
+------------
+with open("example.txt", "r") as file:
+    content = file.read()  # Read the entire file content
+    print(content)
+
+Write a file:
+-------------
+with open("sai_file","w") as file:
+file.write("hello, devops")
