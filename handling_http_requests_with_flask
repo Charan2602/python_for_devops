@@ -1,0 +1,19 @@
+definition: Flask is a popular micro web framework in Python used for handling HTTP requests and building web applications. It’s lightweight, easy to use, and highly customizable.
+
+from flask import Flask, request
+
+app = Flask(__name__)
+
+# Handle GET request
+@app.route('/get-example', methods=['GET'])
+def get_example():
+    return "This is a GET request response!"
+
+# Handle POST request
+@app.route('/post-example', methods=['POST'])
+def post_example():
+    data = request.json  # Get data sent in the request body (JSON format)
+    return f"Received data: {data}"
+
+if __name__ == '__main__':
+    app.run(debug=True)
