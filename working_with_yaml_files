@@ -1,0 +1,16 @@
+Read a YAML file:
+-----------------
+import yaml
+
+# Open the YAML file and load its contents
+with open("config.yaml", "r") as file:
+    config = yaml.safe_load(file)
+
+print(config)
+
+
+Write to a YAML file:
+---------------------
+# Open a file for writing and dump the data
+with open("output.yaml", "w") as file:
+    yaml.dump(data, file)
