@@ -1,0 +1,14 @@
+import docker
+
+create a docker client:
+----------------------
+client = docker.from_env()
+
+list containers:
+--------------
+client = docker.from_env()
+
+running a container:
+--------------------
+container = client.containers.run("ubuntu", "echo Hello, World!", detach=True)
+print(container.logs())
