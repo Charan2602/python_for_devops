@@ -1,0 +1,26 @@
+import schedule:   scheduling tasks
+
+import git:  version control with git
+
+import smtplib : emain notifications
+
+
+to create virtual environments:
+------------------------------
+import os:  
+import subproces
+
+
+import requests:  integrating with ci cd pipelines
+
+import pandas:  for data transformation and manipulation
+
+import boto3:  to coomunicate with the aws services
+
+import unitest: testing the code
+
+
+web scrapping:
+---------------
+import requests
+import bs4 from BeautifulSoup
