@@ -1,0 +1,7 @@
+Rest api automation:
+-------------------
+
+import request
+
+response= request.get("https://api.github.com/data")
+print(response.json())
