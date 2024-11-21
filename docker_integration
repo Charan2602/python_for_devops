@@ -4,9 +4,11 @@ create a docker client:
 ----------------------
 client = docker.from_env()
 
-list containers:
+list containers ()
 --------------
-client = docker.from_env()
+containers = client.containers.list(all=True)
+for container in containers:
+   print(container.id, container.name, container.status)
 
 running a container:
 --------------------
