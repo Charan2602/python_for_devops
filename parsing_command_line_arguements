@@ -1,0 +1,18 @@
+Definition: Parsing command-line arguments in Python is commonly done using the argparse module, which provides a way to handle command-line arguments passed to a Python script
+
+import argparse
+
+# Create a parser object
+parser = argparse.ArgumentParser(description="A simple command-line tool")
+
+# Add arguments
+parser.add_argument("name", help="Your name")
+parser.add_argument("-a", "--age", type=int, help="Your age")
+
+# Parse the arguments
+args = parser.parse_args()
+
+# Access the parsed arguments
+print(f"Hello, {args.name}!")
+if args.age:
+    print(f"You are {args.age} years old.")
