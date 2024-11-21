@@ -1,0 +1,20 @@
+to transfer data between two systems mostly it is json:
+
+
+Read json to a file:
+--------------------
+import json
+
+with open ("data.json","r") as file:
+data=json.load(file)
+print(data)
+
+
+Write json to a file:
+--------------------
+import json
+data={"name":"charan","god":"baba"}
+with open("output.json","w")
+json.dump(data,file,indent=4)
+
+indent --- space 
