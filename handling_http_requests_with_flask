@@ -1,4 +1,5 @@
-definition: Flask is a popular micro web framework in Python used for handling HTTP requests and building web applications. It’s lightweight, easy to use, and highly customizable.
+definition: Flask is a popular micro web framework in Python used for handling HTTP requests and building web applications. 
+-  It’s lightweight, easy to use, and highly customizable.
 
 
 from flask import Flask, request
