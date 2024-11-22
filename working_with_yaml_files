@@ -12,5 +12,15 @@ print(config)
 Write to a YAML file:
 ---------------------
 # Open a file for writing and dump the data
+
+import yaml
+
+data = {
+    "name": "John Doe",
+    "age": 30,
+    "skills": ["Python", "Docker", "Kubernetes"],
+    "is_active": True
+}
+
 with open("output.yaml", "w") as file:
     yaml.dump(data, file)
