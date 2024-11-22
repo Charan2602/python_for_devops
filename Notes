@@ -8,7 +8,7 @@ import git:  version control with git
 
 import smtplib : emain notifications
 eg:
-- Notify administrators when a script encounters an error.
+- Notify administrators when a script encounters an error, task completion notification
 
 
 to create virtual environments:
