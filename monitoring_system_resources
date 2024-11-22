@@ -1,7 +1,5 @@
 import psutil
 
-import psutil
-
 # Print CPU usage in percentage
 print(f"CPU Usage: {psutil.cpu_percent(interval=1)}%")
 
