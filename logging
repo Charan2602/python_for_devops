@@ -1,4 +1,5 @@
-Definition: Python provides a built-in logging module for tracking events in your programs. It’s more powerful and flexible than using print() statements for debugging 
+Definition: Python provides a built-in logging module for tracking events in your programs. 
+- It’s more powerful and flexible than using print() statements for debugging 
 
 import logging
 
