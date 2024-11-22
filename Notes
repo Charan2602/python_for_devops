@@ -7,6 +7,8 @@ eg:
 import git:  version control with git
 
 import smtplib : emain notifications
+eg:
+- Notify administrators when a script encounters an error.
 
 
 to create virtual environments:
