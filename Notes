@@ -1,4 +1,8 @@
 import schedule:   scheduling tasks
+eg:
+- Generate and send daily or weekly reports:
+- Monitoring and Health Checks
+
 
 import git:  version control with git
 
