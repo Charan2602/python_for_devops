@@ -1,5 +1,9 @@
 Definition: Parsing command-line arguments in Python is commonly done using the argparse module, which provides a way to handle command-line arguments passed to a Python script
 
+import sys and import argparse do same thing handling input to python scripts, but argparse i advanced and automated
+- while import sys is simple and manual
+
+
 import argparse
 
 # Create a parser object
